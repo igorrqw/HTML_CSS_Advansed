@@ -1,0 +1,107 @@
+@import 'vars';
+
+.main-product {
+    background-color: #F7F7F7;
+
+    &__img {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__center {
+        display: flex;
+        justify-content: center;
+        background: #FFF;
+        margin-top: 40px;
+    }
+
+    &__info {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & h4 {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 17px;
+            color: $main_color;
+        }
+
+        & span {
+            width: 63px;
+            border: 2px solid $main_color;
+            margin: 12.1px 0;
+        }
+
+
+        & h2 {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 22px;
+            color: #4D4D4D;
+        }
+
+        &__text {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 17px;
+            color: #5E5E5E;
+
+            margin: 48.41px 0 32.27px;
+        }
+
+
+        &__price {
+            font-family: Lato;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 29px;
+            color: $main_color;
+        }
+
+        &__features {
+            margin: 130.09px 0 48.91px;
+            display: flex;
+            gap: 42px;
+        }
+
+        &__features button {
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            color: #6F6E6E;
+            background-color: white;
+
+            border: none;
+            cursor: pointer;
+        }
+
+        &__button {
+            padding: 15.13px 60px 15.13px 25px;
+            display: flex;
+            align-items: center;
+            gap: 22.91px;
+
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            color: $main_color;
+            border: 1px solid $main_color;
+        }
+
+        &__button:hover {
+            background-color: $main_color;
+            color: white;
+            transition: 0.3s;
+        }
+
+        &__button:hover path {
+            fill: white;
+        }
+
+    }
+}
